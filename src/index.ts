@@ -1,3 +1,4 @@
 import { fizzBuzz } from "./fizzbuzz";
 
-console.log(fizzBuzz(15));
+const n = 20;
+console.log(fizzBuzz(n));
