@@ -1,10 +1,30 @@
 {
+  "name": "fizzbuzz",
+  "version": "1.0.0",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc && npm run test",
+    "test": "jest"
+  },
+  "keywords": [
+    "fizzbuzz",
+    "typescript"
+  ],
+  "author": "Thomas Eckert",
+  "description": "FizzBuzz Typescript Module",
+  "engines": {
+    "node": ">=14.0.0"
+  },
   "dependencies": {
     "node": "^20.18.1",
     "typescript": "^5.7.2"
   },
   "devDependencies": {
+    "@babel/preset-env": "^7.26.0",
+    "@babel/preset-typescript": "^7.26.0",
     "@types/jest": "^29.5.14",
+    "babel-cli": "^6.26.0",
     "jest": "^29.7.0",
     "ts-jest": "^29.2.5"
   }

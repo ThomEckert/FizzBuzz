@@ -13,7 +13,7 @@
 export function fizzBuzz(n: number): string[] {
   const result: string[] = [];
   if (n <= 0) {
-    throw new Error("n must be greater than 0");
+    throw new Error("Please enter a number greater than 0");
   }
   for (let i = 1; i <= n; i++) {
     if (i % 3 === 0 && i % 5 === 0) {
